@@ -4,9 +4,9 @@
 
 ---
 
-## دریافت
+## دانلود
 
-آخرین نسخه را از صفحه [Releases](https://github.com/mojtabaniknam/WinArz-releases/releases) دانلود کنید.  
+⏬ آخرین نسخه را از صفحه [Releases](https://github.com/mojtabaniknam/WinArz-releases/releases) دانلود کنید.  
 فایل `WinArz.exe` را اجرا کنید — نصب نیاز ندارد.
 
 ---
@@ -148,33 +148,6 @@ WinArz یک ابزار سبک و همیشه در دسترس است که بدون
 | `currency_tray.log` | لاگ‌های برنامه |
 | `.tutorial_ticker` | وضعیت راهنمای نوار |
 | `.tutorial_panel` | وضعیت راهنمای پنجره |
-
----
-
-## ساخت از سورس
-
-**پیش‌نیازها:**
-
-```
-Python 3.11+
-pip install Pillow requests pyinstaller
-```
-
-**اجرای مستقیم:**
-
-```
-cd currency_tray
-python main.py
-```
-
-**ساخت فایل exe:**
-
-```
-cd currency_tray
-pyinstaller --onefile --noconsole --name WinArz --icon=assets/icon.ico main.py
-```
-
-فایل نهایی: `dist\WinArz.exe`
 
 ---
 
